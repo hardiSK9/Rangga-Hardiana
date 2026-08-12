@@ -1,0 +1,207 @@
+*,
+.html{
+    margin: 0;
+    padding: 0;
+}
+
+ :root {
+      --bg-dark: #0a0a0c;        
+      --card-dark: #121318;     
+      --text-white: #ffffff;     
+      --text-muted: #a0a5b5;    
+      --accent-red: #00c0f0;     
+      --accent-blue: #00b7ff;    
+      --border-color: #222530; 
+    }
+
+body {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("backgrounds.jpg");
+
+    background-size: cover;s
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-container{
+    width: 100%;
+    height: 100px;
+    height: 10vh;
+    
+}
+
+.ul-navbar{
+display:flex ;
+height: 100px;
+justify-content: right;
+align-items: center;
+}
+
+.li-navbar{
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    border: 0px solid var(--border-color);
+}
+
+
+    /* PROFIL & DATA DIRI */
+
+.container-img{
+
+}
+
+    .profile-card {
+      background-color: var(--card-dark);
+      border-radius: 12px;
+      padding: 2.5rem;
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 2.5rem;
+      align-items: center;
+      border: 1px solid var(--border-color);
+      box-shadow: -5px 5px 0px var(--accent-red);
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+    box-shadow: 1px 10px 5px 0px rgb(0, 126, 252);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(0, 217, 255, 0.75);
+    -moz-box-shadow: 1px 10px 5px 0px rgb(0, 174, 255);w
+}
+
+
+    .profile-img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid var(--accent-blue);
+    }
+
+    .profile-info h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .profile-info .tagline {
+      color: var(--accent-red);
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .profile-info .bio {
+      color: #a8ebfc;
+      margin-bottom: 1.5rem;
+    }
+
+    /* DETAILS GRID */
+    .details-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      background-color: #3b3b3b;
+      padding: 1.2rem;
+      border-radius: 8px;
+      border-left: 4px solid var(--accent-blue);
+    }
+
+.detail-item span {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--accent-red);
+  text-transform: uppercase;
+  etter-spacing: 1px;
+  font-weight: bold;
+}
+
+.detail-item strong {
+  font-size: 0.95rem;
+  color: var(--text-white);
+}
+
+ section {
+  background: var(--white);
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+section h2.section-title {
+  font-size: 1.5rem;
+  color: var(--primary-blue);
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--accent-blue);
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+        
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+        }
+
+.skill-tag {
+  color: var(--primary-blue);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  border: 1px solid var(--accent-blue);
+}
+    
+
+
+
+.li-navbar:hover{
+  background-color:#666;
+  transition: 2s ease-in-out;
+  transition-delay:.1s;
+  border-radius: 8px;
+}
+
+.a-navbar{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.content-container{
+background-color:#666;
+display:flex ;
+justify-content: center;
+align-items: center;
+height: 80vh;
+}
+
+
+.footer-container{
+background-color: #333;
+display:flex ;
+justify-content: center;
+align-items: center;
+color: white;
+height: 10vh;
+}
+
+.h1-container{
+font-size: 40px;
+}
+
