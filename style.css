@@ -89,7 +89,7 @@ align-items: center;
       height: 280px;
       object-fit: cover;
       border-radius: 8px;
-      border: 2px solid var(--accent-blue);
+      border:3px solid 
     }
 
     .profile-info h1 {
