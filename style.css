@@ -271,7 +271,7 @@ section h2.section-title {
 }
 
 .a-navbar{
- color: var(--accent-red);
+ color: cyan;  
   text-decoration: none;
 }
 
