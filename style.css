@@ -304,6 +304,8 @@ background-color: var(--card-dark);
 
 .h1-container{
 font-size:20px ;
-
 }
 
+.h11{
+  color: var(--text-white);
+}
